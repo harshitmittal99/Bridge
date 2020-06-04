@@ -4,9 +4,10 @@
 Uses python-socketio.
 """
 
-import socketio
-import eventlet
 from flask import Flask, render_template
+
+import eventlet
+import socketio
 
 __author__ = "Priyansh Saxena"
 __credits__ = ["Priyansh Saxena"]
